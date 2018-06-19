@@ -7,8 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		421AA7D020D8CCD2004B56B1 /* ResizeTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 421AA7CF20D8CCD2004B56B1 /* ResizeTableViewController.swift */; };
 		426133E020D2572E00FECB68 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426133DF20D2572E00FECB68 /* AppDelegate.swift */; };
-		426133E220D2572E00FECB68 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 426133E120D2572E00FECB68 /* ViewController.swift */; };
 		426133E520D2572E00FECB68 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426133E320D2572E00FECB68 /* Main.storyboard */; };
 		426133E720D2573000FECB68 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 426133E620D2573000FECB68 /* Assets.xcassets */; };
 		426133EA20D2573000FECB68 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 426133E820D2573000FECB68 /* LaunchScreen.storyboard */; };
@@ -34,9 +34,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		421AA7CF20D8CCD2004B56B1 /* ResizeTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResizeTableViewController.swift; sourceTree = "<group>"; };
 		426133DC20D2572E00FECB68 /* TableViewCellResizeDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TableViewCellResizeDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		426133DF20D2572E00FECB68 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		426133E120D2572E00FECB68 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		426133E420D2572E00FECB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		426133E620D2573000FECB68 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		426133E920D2573000FECB68 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -98,7 +98,7 @@
 			isa = PBXGroup;
 			children = (
 				426133DF20D2572E00FECB68 /* AppDelegate.swift */,
-				426133E120D2572E00FECB68 /* ViewController.swift */,
+				421AA7CF20D8CCD2004B56B1 /* ResizeTableViewController.swift */,
 				426133E320D2572E00FECB68 /* Main.storyboard */,
 				426133E620D2573000FECB68 /* Assets.xcassets */,
 				426133E820D2573000FECB68 /* LaunchScreen.storyboard */,
@@ -256,8 +256,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				426133E220D2572E00FECB68 /* ViewController.swift in Sources */,
 				426133E020D2572E00FECB68 /* AppDelegate.swift in Sources */,
+				421AA7D020D8CCD2004B56B1 /* ResizeTableViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -433,6 +433,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3369PTE6B;
 				INFOPLIST_FILE = TableViewCellResizeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -451,6 +452,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = R3369PTE6B;
 				INFOPLIST_FILE = TableViewCellResizeDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
